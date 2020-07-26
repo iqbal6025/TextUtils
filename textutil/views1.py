@@ -3,7 +3,7 @@ from django.shortcuts import render
 
 def index(request):
 
-    return render(request,'home.html')
+    return render(request,'index.html')
 def analyze(request):
     djtext=request.POST.get('text','default')
     check=request.POST.get('check','off')
